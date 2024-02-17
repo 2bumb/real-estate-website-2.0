@@ -2,3 +2,24 @@
     width: 300px; /* Adjust the width as needed */
     
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Align items to the start and end of the container */
+    align-items: center;
+}
+
+.navbar img {
+    /* Add any styles for the logo here */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px; /* Adjust margin as needed */
+}
