@@ -68,7 +68,7 @@
         font-family: sans-serif;
       }
 
-      .quote p{  max-width: 200px; /* Adjusted the max-width value for better readability */
+      .quote p{  max-width: 200px; 
         font-weight: 100;
         line-height: 25px;
         margin: 0px auto;}
