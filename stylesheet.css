@@ -1,16 +1,13 @@
 .logo {
-    width: 300px; /* Adjust the width as needed */
+    width: 250px; /* Adjust the width as needed */
     
 }
-
 .navbar {
     display: flex;
-    justify-content: space-between; /* Align items to the start and end of the container */
     align-items: center;
-}
-
-.navbar img {
-    /* Add any styles for the logo here */
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0; /* Change as needed */
 }
 
 .navbar ul {
@@ -18,8 +15,28 @@
     margin: 0;
     padding: 0;
     display: flex;
+
 }
 
 .navbar ul li {
-    margin-left: 20px; /* Adjust margin as needed */
+    margin-right: 20px; /* Adjust as needed */
 }
+
+.navbar ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333; /* Change link color as needed */
+}
+
+
+
+
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
