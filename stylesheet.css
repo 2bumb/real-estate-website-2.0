@@ -55,7 +55,26 @@
     .new-section{background-color: white;
     
     height:10vw}
+ 
 
-   
+    .quote{color:white;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        text-align: center;
+        color: #fff;
+        font-family: sans-serif;
+      }
+
+      .quote p{  max-width: 200px; /* Adjusted the max-width value for better readability */
+        font-weight: 100;
+        line-height: 25px;
+        margin: 0px auto;}
+
+        .quote h1{font-size: 70px; 
+            margin-bottom: 10px;}
+
 
     
