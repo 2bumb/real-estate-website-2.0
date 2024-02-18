@@ -7,7 +7,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: transparent; /* Change as needed */
+    background-color: transparent; 
+    font-family: sans-serif;
     
 }
 
@@ -20,23 +21,25 @@
 }
 
 .navbar ul li {
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 20px; 
 }
 
 .navbar ul li:last-child {
-    margin-right: 0; /* Remove margin from the last item */
+    margin-right: 0; 
+    
 }
 
 .navbar ul li a {
     text-decoration: none;
-    color: #333; /* Change link color as needed */
+    color: white; 
+
 }
 .banner {
-    position: relative; /* Ensure the banner's content stays in place */
+    position: relative; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('treehouse.jpg');
     background-size: cover;
  
-    height: 111vh; /* Set height to viewport height */
+    height: 110vh; 
    
 }
 
@@ -47,6 +50,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;}
+
+    .new-section{background-color: white;
+    
+    height:10vw}
 
    
 
