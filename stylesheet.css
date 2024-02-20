@@ -107,7 +107,7 @@
     }
 
 
-
+/*  This section creates the hover for the navbar */
     .navbar ul li a {
         text-decoration: none;
         color: #fff;
@@ -144,3 +144,4 @@
         position: relative;
         margin-bottom: 10px; /* Add margin-bottom to space out vertically */
       }
+      /* Navbar hover */
