@@ -146,13 +146,15 @@
       }
       /* Navbar hover */
 
+
+      /* animation fade in*/
       @keyframes fadein {
         from {
-          background-color: black; /* Set the starting background color to black */
+          background-color: black; 
           opacity: 0;
         }
         to {
-          background-color: black; /* Set the ending background color to black */
+          background-color: black; 
           opacity: 1;
         }
       }
@@ -160,3 +162,15 @@
       .fade-in {
         animation: fadein 3.4s;
       }
+      /* @media(max-width:960px)
+      {.navbar ul{position: absolute;
+        transform: translate(-10%, 200%);;
+ 
+     
+        width: 100%;
+        display:block;
+        text-align: center;
+      font-size: 15.5px;
+      cursor: pointer;
+      }} */
+ 
