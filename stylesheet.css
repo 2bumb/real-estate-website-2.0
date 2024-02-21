@@ -145,3 +145,18 @@
         margin-bottom: 10px; /
       }
       /* Navbar hover */
+
+      @keyframes fadein {
+        from {
+          background-color: black; /* Set the starting background color to black */
+          opacity: 0;
+        }
+        to {
+          background-color: black; /* Set the ending background color to black */
+          opacity: 1;
+        }
+      }
+      
+      .fade-in {
+        animation: fadein 3.4s;
+      }
