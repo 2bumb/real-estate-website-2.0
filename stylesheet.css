@@ -39,7 +39,7 @@
  object-fit: cover;
     height: 100vh; 
     background-attachment: fixed;
-   
+    overflow-x: hidden;
 }
 
 
