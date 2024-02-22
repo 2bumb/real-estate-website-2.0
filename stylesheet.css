@@ -33,12 +33,21 @@
 
 }
 .banner {
-    position: relative; 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('treehouse.jpg');
-    background-size: auto 100%;
-    object-fit: cover;
-    height: 80vh; 
-    background-attachment: fixed;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('treehouse.jpg');
+  background-size:auto; /* Set a fixed width for the background */
+  background-position: center; /* Center the background image */
+  height: 80vh;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  width:100%;
+ 
+}
+
+
+.banner {
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
 }
 
 
