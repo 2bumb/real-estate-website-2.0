@@ -35,11 +35,10 @@
 .banner {
     position: relative; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('treehouse.jpg');
-    background-size: cover;
- object-fit: cover;
-    height: 100vh; 
+    background-size: auto 100%;
+    object-fit: cover;
+    height: 80vh; 
     background-attachment: fixed;
-   overflow-x: hidden;
 }
 
 
