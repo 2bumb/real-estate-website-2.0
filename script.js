@@ -39,3 +39,4 @@ if (myAge < 18 || myAge > 30) { // we are saying my age 24 must be under 18 year
 // document.getElementById('registerLink').addEventListener('click', function() {
 //     this.style.color = 'red';
 // });
+
