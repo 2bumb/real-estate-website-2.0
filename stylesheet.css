@@ -182,4 +182,11 @@
       font-size: 15.5px;
       cursor: pointer;
       }} */
- 
+      #menu img {
+        width: 30px; /* Adjust the width of the menu icon as needed */
+        height: auto; /* Ensure the height adjusts proportionally */
+       position: relative;
+       bottom: 10px;
+        color: white; /* Set the color of the icon to white */
+    }
+    
