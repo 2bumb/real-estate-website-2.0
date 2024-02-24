@@ -21,13 +21,13 @@
 // }
 
 
-var myAge = 24;
+// var myAge = 24;
 
-if (myAge < 18 || myAge > 30) { // we are saying my age 24 must be under 18 years old and the other one is saying 24 is less than 30
-    document.write("you cool bro");
-} else {
-    document.write("you aint cool");
-}
+// if (myAge < 18 || myAge > 30) { // we are saying my age 24 must be under 18 years old and the other one is saying 24 is less than 30
+//     document.write("you cool bro");
+// } else {
+//     document.write("you aint cool");
+// }
 
 // let myAge = 35;
 
