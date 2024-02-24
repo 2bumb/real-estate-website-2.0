@@ -32,12 +32,11 @@
     color: white; 
 
 }
-.banner {
-  position: relative;
+ .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('treehouse.jpg');
   background-size: cover; /* Cover the entire container */
-  background-position:center; /* Center the background image */
-  height: 80vh;
+ background-repeat: no-repeat;
+  height: 60vh;
 
 }
 
@@ -76,6 +75,7 @@
         color: #fff;
         padding-bottom: 10px;
         font-family: sans-serif;
+      
       }
       .quote p{  max-width: 200px; 
         font-weight: 100;
@@ -171,7 +171,7 @@
       }
       
       .fade-in {
-        animation: fadein 3.4s;
+        animation: fadein 2.4s;
       }
       /* @media(max-width:960px)
       {.navbar ul{position: absolute;
@@ -199,13 +199,13 @@
       width: 100%;
       position: absolute;
     justify-content: center;
-    padding-top: 10px;
-      margin-top: 15%;
+
       text-align: center;
       color: black;
       padding-bottom: 10px;
       font-size:55px;
-font-family: sans-serif;
+font-family: sans-serif; 
+
   }
 
 
