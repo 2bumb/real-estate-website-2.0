@@ -40,3 +40,10 @@ if (myAge < 18 || myAge > 30) { // we are saying my age 24 must be under 18 year
 //     this.style.color = 'red';
 // });
 
+
+// let age = 5;
+// while (age < 10){
+// console.log ('Your age is less than 10');
+// age++;
+// }
+ 
