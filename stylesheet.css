@@ -36,14 +36,15 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('treehouse.jpg');
   background-size: cover; /* Cover the entire container */
  background-repeat: no-repeat;
-  height: 700px;
+ 
   background-attachment: fixed;
   margin-left: 0;
   margin-right: 0;
-  padding: 0;
+  padding-bottom: 375px;
+  
 }
 
-.new-section {
+/* .new-section {
   width: 100%;
   position: absolute;
  justify-content: center;
@@ -55,7 +56,7 @@
   font-family: sans-serif; 
   background-color: green;
 
-}
+} */
 
 body {
 margin: 0px;
