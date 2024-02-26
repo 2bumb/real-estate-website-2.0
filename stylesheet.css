@@ -80,18 +80,23 @@ padding: 0px;
 
       .quote h1{font-size: 70px; 
           margin-bottom: 10px;}
-
-          .search-container{
-              position: absolute;
-              top: 60%;
-              left: 50%;
-              transform: translate(-50%, 100%);
-              text-align: center;
-              color: #fff;
-              font-family: sans-serif;
-        
+          
+          .search-container {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, 100%);
+            text-align: center;
+            color: #fff;
+            font-family: sans-serif;
           }
-
+          
+          @media (max-width: 960px) {
+            .search-container {
+              top: 80%; /* Adjust the position for smaller viewports */
+            }
+          }
+          
 
   button{ font-family: sans-serif;
       background-color: #347474;
@@ -210,3 +215,20 @@ padding: 0px;
 .new-section{background-color: rgb(100, 117, 96);} */
 
 html{scroll-behavior: smooth;}
+
+
+.search-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+@media (max-width: 960px) {
+  .search-container {
+    top: 80%; /* Adjust the position for smaller viewports */
+  }
+}
